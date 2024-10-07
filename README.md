@@ -3,7 +3,12 @@
 1. [certificacion-github-foundations-temario-completo-y-examen](https://www.udemy.com/course/certificacion-github-foundations-temario-completo-y-examen)
 
 # Primeros pasos
-## 00 - Instalaciones
+## 00 - Instalaciones necesarias
+
+<details>
+
+<summary>Guía paso a paso para instalar Git en Windows</summary>
+
 
    Deberemos instalar 2 cosas principalmente:
 
@@ -20,6 +25,11 @@
 
 
    2. Y el IDE [Visual Studio Code](https://code.visualstudio.com/download)
+      1. Descargar el ejecutable '*.EXE' y seleccionar el sistema (32 o 64 bits)
+      2. Siguiente, siguiente
+      3. Reiniciar.  
+
+</details>
 
 ## 01 - Creación de una cuenta en GitHub, en línea.
 
