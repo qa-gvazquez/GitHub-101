@@ -21,10 +21,21 @@
 
 
       3. Hay otro paso donde nos pide cambiar el nombre de la rama principal de Master a `main`, o lo que querramos. Elegir esa casilla.
+              ![{30D5D895-AE1A-47A3-9ECA-B2EE1D425FB0}](https://github.com/user-attachments/assets/686324fe-5c1d-4952-859b-93f3fbfd175a)
+
+      4. En el siguiente punto, elegir usar 'Git' únicamente con la terminal `Git BASH`. Esta es similar a MAC y Linux, y la que en realidad
+         estaremos utilizando.
+      
+
+         ![image](https://github.com/user-attachments/assets/d3db45a4-f952-4ba3-b4b7-d46964c72c09)
+
+      5. Next, next, next....  INSTALL
 
 
 
-   2. Y el IDE [Visual Studio Code](https://code.visualstudio.com/download)
+
+
+   3. Y el IDE [Visual Studio Code](https://code.visualstudio.com/download)
       1. Descargar el ejecutable '*.EXE' y seleccionar el sistema (32 o 64 bits)
       2. Siguiente, siguiente
       3. Reiniciar.  
