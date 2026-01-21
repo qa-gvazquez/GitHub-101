@@ -44,16 +44,23 @@
 
 ## 01 - Creación de una cuenta en GitHub, en línea.
 
-   1. Entermos a la página de GitHub y únicamente con un Email podemos crear una cuenta.
+   1. Entremos a la página de GitHub y únicamente con un email podemos crear una cuenta.
    2. Entremos en el enlace [https://github.com/settings/emails](https://github.com/settings/emails) y busquemos dos datos importantes:
       1. Nombre de usuario
       2. Email
 
 ![img.png][def2]
 
-## 02 - Abrir el Directorio, Fichero o Carpeta de los archivos a respaldar.
+## OPCIÓN 1 - Respaldar el Directorio, Fichero o Carpeta de los archivos ya creados en un repositorio desde el IDE.
 
-Ya sea que creemos una carpeta nueva, o sencillamente nos dirigimos a una que ya contenga archivos de interés.
+**NOTA:** El IDE ya debería tener configuradas las credenciales de GitHub para poder hacer este paso.
+El proceso varía ligeramente si usamos  IntelliJ IDEA o Visual Studio Code.
+VSC es mucho más amigable para trabajar con GitHub por los apoyos visuales.
+Yo ya me acostumbré más a IntelliJ.
+
+Por esta razón, es que primero deberías aprender el proceso MANUAL. Para no depender de ningún IDE.
+
+Ya sea que creemos una carpeta nueva o sencillamente nos dirigimos a una que ya contenga archivos de interés.
 
 1. Clic derecho > `Open Git Bash Here`
 2. Teclear: `git init`
@@ -62,7 +69,7 @@ o
    1. Dar clic en el ícono de `Source Control`
    ![alt text](./images/image-1.png)
 
-   2. Clic en `Initialize Repository`
+   2. Clic en `Initialize Repository.`
    ![alt text](./images/image-2.png)
 
    3. Abrir la Terminal en VSC.
@@ -74,11 +81,11 @@ o
       ![alt text](./images/image-5.png)
 
 
-## 03 - Configuración de Git, local, desde la terminal BASH.
+### Configuración de Git, local, desde la terminal BASH.
 
-Debemos sincronizar la información de usuario del Repositorio en línea `GitHub`, con nuestro sistema de control de versiones local `Git`.
+Debemos sincronizar la información de usuario del Repositorio en línea `GitHub` con nuestro sistema de control de versiones local `Git`.
 
-La información de `Nombre` e `Email` se debe configurar los datos del usuario reflejando los datos del Repositorio de GitHub.
+La información de `Nombre` e `Email` se debe configurar con los datos del usuario reflejando los datos del Repositorio de GitHub.
 
 Debemos teclear los datos manualmente:
 
@@ -91,7 +98,7 @@ Para verificar que se aplicaron los cambios, en la Terminal `Bash` debemos tecle
 
 ![alt text](./images/image-6.png)
 
-Se abrirá una ventana nueva en el editor por defecto (Debería se Visual Studio Code, si hicimos bien la instalación de Git) con el archivo `.gitconfig` donde se enlistan los ajustes de `Git` local. 
+Se abrirá una ventana nueva en el editor por defecto (Debería ser Visual Studio Code, si hicimos bien la instalación de Git) con el archivo `.gitconfig` donde se enlistan los ajustes de `Git` local. 
 
 Sencillamente cerramos la ventana.
 
@@ -104,9 +111,9 @@ También podemos hacer lo mismo con una sola línea de comando
 
 ![alt text](./images/image-22.png)
 
-## 04 - Creando un nuevo Repositorio en GitHub, en línea.
+## OPCIÓN 2 -  Creando un nuevo repositorio directamente en GitHub (en línea).
 
-Una vez en nuestra cuenta de GitHub, tendremos muchas opciones para crear un Nuevo Repositorio, o un espacio en la Web para compartir nuestro proyecto.
+Una vez en nuestra cuenta de GitHub, tendremos muchas opciones para crear un nuevo repositorio o un espacio en la web para compartir nuestro proyecto.
 
 ![alt text](./images/image-8.png)
 
@@ -118,7 +125,7 @@ y dar clic en `Create repository`
 
 ![alt text](./images/image-9.png)
 
-## 05 - Subiendo el proyecto a un Repositorio
+## OPCIÓN 3 - MANUALMENTE, subimos el proyecto a un repositorio remoto.
 
 1. Si no lo hemos hecho aún, debemos abrir la carpeta de los archivos a respaldar, e inicializar el proyecto Git (local) con el comando:
 >     git init
@@ -246,8 +253,6 @@ Debemos cerrar la ventana del Navegador, y refrescar la ventana del Repositorio 
 
 
 Finalmente, podemos ver nuestros cambios en la Web, a disposición de todo el mundo para compartir nuestros conocimientos y respaldar nuestros avances.
-
-
 
 
 ## 06 - Solucionando errores de GitHub.
